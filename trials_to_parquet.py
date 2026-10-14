@@ -45,7 +45,7 @@ for i in range(1, 16):
 
         trials.append({
             "subject_id": subject,
-            "label": label,
+            "activity": label,
             "with_rifle": with_rifle,
             "repetition": repetition,
             "start_index": start,
