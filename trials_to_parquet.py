@@ -67,7 +67,7 @@ for i in range(1, 16):
 pd.DataFrame(
     trials,
     columns=[
-        "subject_id", "label", "with_rifle",
+        "subject_id", "activity", "with_rifle",
         "repetition", "start_index", "end_index"
     ]
 ).to_csv(OUTPUT / "trials.csv", index=False)
