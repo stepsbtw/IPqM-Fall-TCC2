@@ -45,7 +45,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--target-hz", type=int, nargs="+", choices=(50, 100), default=[50, 100])
+    parser.add_argument("--hz", type=int, nargs="+", choices=(50, 100), default=[50, 100])
     args = parser.parse_args()
 
     trials = {}
@@ -67,7 +67,7 @@ def main():
                 for axes, values in read_streams(paths[device]).items()
             }
 
-            for hz in args.target_hz:
+            for hz in args.hz:
                 destination = args.output / f"{hz}hz" / trial.split("_")[0] / f"{trial}.csv"
                 destination.parent.mkdir(parents=True, exist_ok=True)
                 merge(streams, hz).to_csv(destination, index=False)
