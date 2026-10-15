@@ -1,0 +1,28 @@
+﻿code,activity,repetitions,duration_s,description
+ADL1,Standing,1,180,Upright standing posture.
+ADL2,Walking,1,180,Continuous walking.
+ADL3,Running,3,30,Continuous running.
+ADL4,Jumping,3,30,Repeated jumps every 2 s.
+ADL5,Stair climb,3,10,Ascending stairs.
+ADL6,Stair descend,3,10,Descending stairs.
+ADL7,Sitting,6,5,Standing → sitting.
+ADL8,Stand up,6,5,Sitting → standing.
+ADL9,Uphill walk,3,30,Walking uphill.
+ADL10,Downhill walk,3,30,Walking downhill.
+ADL11,Uphill run,3,15,Running uphill.
+ADL12,Downhill run,3,15,Running downhill.
+ADL13,Stair hop,3,15,Ascending stairs with hops.
+MO1,Sweep (Walk),1,180,walking while sweep.
+MO2,Sweep (Engage),3,45,Quick engagement sweep.
+MO3,Kneeling (Stand),3,10,Standing → kneeling.
+MO4,Kneeling (Walk),3,1,Walking → kneeling.
+MO5,Kneeling (Run),3,45,Running → kneeling.
+MO6,Prone (Stand),3,10,Standing → prone.
+MO7,Prone (Walk),3,60,Walking → prone.
+MO8,Prone (Run),3,45,Running → prone.
+MO9,Crawl,3,50,Continuous crawling.
+FALL1,Frontal Fall (Supine),6,10,Forward fall → supine.
+FALL2,Frontal Fall (Prone),6,10,Forward fall → prone.
+FALL3,Backward Fall,6,10,Backward fall → supine.
+FALL4,Lateral Fall Right,6,10,Fall to the right side.
+FALL5,Lateral Fall Left,6,10,Fall to the left side.
